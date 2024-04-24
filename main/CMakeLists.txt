@@ -1,2 +1,2 @@
-idf_component_register(SRCS "ina226_test.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRCS ina226_test.c INA226.c
+                    INCLUDE_DIRS . include)
